@@ -1,27 +1,23 @@
+/* Estilo de body, titulo principal */
+
 body{
-    background: linear-gradient(#c7a1f8, #7470ed);
+    background: linear-gradient(#8477a5, #7470ed);
+    padding: 15px;
 }
 h1{
-    font-size: 60px;
+    font-size: 300px;
     font-family:"Adelia";
     text-align: center;
-}
-p{
-    font-size: 20px;
-    font-family: "Calibri";
-    text-align: justify;
-}
-
-.Titulo{
-    font-weight: bold; 
 }
 
 #header{
     margin: auto;
-    width: 1100px;
-    font-family: <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">;
-    font-size: 20px;
+    width: 1200px;
+    font-size: 30px;
+    font-family: "Calibri";
 }
+
+/* Estilo de menu */
 
 ul, ol{
     list-style: none;
@@ -71,24 +67,30 @@ ul, ol{
     justify-content: space-around;
 }
 
-p{
-    font-family: "Louis George Cafe Light";
+/* Estilos de parrafos */
+
+
+.Titulo{
+    font-weight: bold; 
+    list-style-type: none;
 }
 
-#secciones{
-    font-family: "Louis George Cafe Light";
-    font-size: 20px;
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+    text-align: justify;
+    font-family: "Remoto";
 }
 
 .infoimportante{
-    font-size: 25px;
+    font-size: 30px;
 }
 
-.imagencentro{
-    text-align: center;
-}
-#sobremi{
-    font-family: "Hello";
+.sobremi{
+    font-family: "Bestie";
     font-size: 25px;
 }
 
@@ -96,9 +98,21 @@ p{
     font-family: "Louis George Cafe Light";
 }
 
-h3{
-    font-family: "Louis George Cafe Light";
+
+/* Estilos carrousel */
+
+.slide{
+    margin top: 10px
+
 }
+
+.slide img{
+    height: 100vh;
+
+}
+
+/* Estilos formulario */
+
 .letracontacto{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
@@ -122,7 +136,10 @@ h3{
     font-size: 20px;
 }
 
+/* Estilos footer */
+
 footer{
     font-family: "Calibri";
     font-size: 18px;
 }
+
