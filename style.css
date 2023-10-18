@@ -1,0 +1,128 @@
+body{
+    background: linear-gradient(#c7a1f8, #7470ed);
+}
+h1{
+    font-size: 60px;
+    font-family:"Adelia";
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: "Calibri";
+    text-align: justify;
+}
+
+.Titulo{
+    font-weight: bold; 
+}
+
+#header{
+    margin: auto;
+    width: 1100px;
+    font-family: <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">;
+    font-size: 20px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    background-color: #5612f5;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li a:hover {
+    background-color: #e8d8fe;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li{
+    position: relative;
+    display: none;
+    min-width: none;
+}
+
+.nav li ul li ul{
+    right: -205px;
+    top: 0px;
+}
+
+.nav{
+    background: #3b00c3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    font-family: "Louis George Cafe Light";
+}
+
+#secciones{
+    font-family: "Louis George Cafe Light";
+    font-size: 20px;
+}
+
+.infoimportante{
+    font-size: 25px;
+}
+
+.imagencentro{
+    text-align: center;
+}
+#sobremi{
+    font-family: "Hello";
+    font-size: 25px;
+}
+
+.Titulo{
+    font-family: "Louis George Cafe Light";
+}
+
+h3{
+    font-family: "Louis George Cafe Light";
+}
+.letracontacto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+#letracontacto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+#ciudad{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#boton{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ciudad{
+    font-size: 20px;
+}
+
+footer{
+    font-family: "Calibri";
+    font-size: 18px;
+}
