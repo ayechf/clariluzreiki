@@ -1,13 +1,18 @@
 /* Estilo de body, titulo principal */
 
 body{
-    background: linear-gradient(#8477a5, #7470ed);
-    padding: 15px;
+background-color: #627dfa;
+background-image: linear-gradient(62deg, #627dfa 0%, #E0C3FC 50%, #ffffff 100%);
+padding: 15px;
 }
+
 h1{
-    font-size: 300px;
     font-family:"Adelia";
     text-align: center;
+}
+
+.tituloprincipal{
+    font-size: 100px;
 }
 
 #header{
@@ -15,6 +20,97 @@ h1{
     width: 1200px;
     font-size: 30px;
     font-family: "Calibri";
+}
+
+/* Estilos de parrafos */
+
+.Titulo{ 
+    list-style-type: none;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+    text-align: justify;
+    font-family: "Remoto";
+}
+
+.infoimportante{
+    font-size: 30px;
+}
+
+#secciones{
+    font-style: normal;
+}
+
+.sobremi{
+    font-family: "Bestie";
+    font-size: 55px;
+}
+
+.sesiones{
+    font-family: "Bestie";
+    font-size: 55px;;
+}
+
+.cursos{
+    font-family: "Bestie";
+    font-size: 55px;
+}
+
+.piedras{
+    font-family: "Bestie";
+    font-size: 55px;
+}
+
+.aromaterapia{
+    font-family: "Bestie";
+    font-size: 55px;
+}
+
+.Titulo{
+    font-family: "Louis George Cafe Light";
+}
+
+.niveles{
+    font-family: "Louis George Cafe Light";
+    font-size: 35px;
+}
+
+
+/* Estilos Bootstrap */
+
+.slide img{
+    height: 100vh;
+
+}
+
+.iconos {
+    min-width: 700px;
+    display: flex;
+    justify-content: right;
+}
+
+.iconos a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.iconos a:hover {
+    transform: scale(1.2);
 }
 
 /* Estilo de menu */
@@ -29,6 +125,7 @@ ul, ol{
     text-decoration: none;
     padding: 10px 20px;
     display: block;
+    transition: all .3s ease-in-out;
 }
 
 .nav > li{
@@ -67,49 +164,6 @@ ul, ol{
     justify-content: space-around;
 }
 
-/* Estilos de parrafos */
-
-
-.Titulo{
-    font-weight: bold; 
-    list-style-type: none;
-}
-
-h2{
-    font-size: 40px;
-}
-
-p{
-    font-size: 25px;
-    text-align: justify;
-    font-family: "Remoto";
-}
-
-.infoimportante{
-    font-size: 30px;
-}
-
-.sobremi{
-    font-family: "Bestie";
-    font-size: 25px;
-}
-
-.Titulo{
-    font-family: "Louis George Cafe Light";
-}
-
-
-/* Estilos carrousel */
-
-.slide{
-    margin top: 10px
-
-}
-
-.slide img{
-    height: 100vh;
-
-}
 
 /* Estilos formulario */
 
