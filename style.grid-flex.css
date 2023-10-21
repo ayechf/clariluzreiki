@@ -36,3 +36,35 @@
 .textogrid{
 	font-size: 32px;
 }
+
+/* Diseño Responsive */
+
+@media screen and (max-width: 768px){
+	.contenedor {
+		width: 80%;
+		max-width: 1000px;
+		margin: auto;
+		padding: 30px 0;
+		display: grid;
+		grid-template-columns: 100% 100%;
+		gap: 15px;
+	}
+	.textogrid{
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 480px){
+    .contenedor {
+		width: 50%;
+		max-width: 700px;
+		margin: auto;
+		padding: 20px 0;
+		display: grid;
+		grid-template-columns: 100% 100%;
+		gap: 10px;
+	}
+	.textogrid{
+		font-size: 20px;
+	}
+}

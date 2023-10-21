@@ -1,11 +1,11 @@
-/* Estilo de body, titulo principal */
-
+/* Estilo de body*/
 body{
 background-color: #627dfa;
 background-image: linear-gradient(62deg, #627dfa 0%, #E0C3FC 50%, #ffffff 100%);
 padding: 15px;
 }
 
+/* Estilo de titulo principal */
 h1{
     font-family:"Adelia";
     text-align: center;
@@ -15,12 +15,6 @@ h1{
     font-size: 100px;
 }
 
-#header{
-    margin: auto;
-    width: 1200px;
-    font-size: 30px;
-    font-family: "Calibri";
-}
 
 /* Estilos de parrafos */
 
@@ -86,7 +80,6 @@ p{
 
 .slide img{
     height: 100vh;
-
 }
 
 .iconos {
@@ -115,55 +108,42 @@ p{
 
 /* Estilo de menu */
 
-ul, ol{
+#menu{
+    background-color: #3b00c3;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#menu ul{
     list-style: none;
+    margin: 0;
+    padding: 20px 30px;
 }
 
-.nav li a{
-    background-color: #5612f5;
+#menu li{
+    display: inline;
+    margin: 0;
+}
+
+#menu li a{
     color: aliceblue;
+    padding: 20px 30px;
     text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-    transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
+
 }
 
-.nav > li{
-    float: left;
-}
-
-.nav li a:hover {
-    background-color: #e8d8fe;
-}
-
-.nav li ul{
-    display: none;
-    position: absolute;
-    min-width: 140px;
-}
-
-.nav li:hover > ul{
-    display: block;
-}
-
-.nav li ul li{
-    position: relative;
-    display: none;
-    min-width: none;
-}
-
-.nav li ul li ul{
-    right: -205px;
-    top: 0px;
+#menu li a:hover{
+    background-color: #E0C3FC;
+    color: #ffffff;
 }
 
 .nav{
-    background: #3b00c3;
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
-
 
 /* Estilos formulario */
 
@@ -200,5 +180,97 @@ ul, ol{
 footer{
     font-family: "Calibri";
     font-size: 18px;
+}
+
+/* Diseño Responsive */
+
+@media screen and (max-width: 768px){
+    #menu{
+        flex-direction: row;
+    }
+    #menu ul{
+        padding: 0;
+    }
+    #menu ul li{
+        margin-right: -3px;
+        display: inline-block;
+        text-align: center;
+        width: 33%;
+    }
+    .infoimportante{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+        text-align: justify;
+        font-family: "Remoto";
+    }
+
+    #menu li a{
+        display: list-item;
+    }
+    .tituloprincipal{
+        text-align: justify;
+        width: 50%;
+        font-size: 70px;
+    }
+    .iconos a {
+        text-decoration: none;
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #314652;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        transition: all .4s ease-in-out;
+    }
+    .contacto{
+        font-family: "Louis George Cafe Light";
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #menu ul li{
+        width: 100%;
+    }
+    #menu li a{
+        display: list-item;
+    }
+    .tituloprincipal{
+        text-align: justify;
+        width: 50%;
+        font-size: 50px;
+    }
+    .infoimportante{
+        font-size: 15px;
+    }
+    p{
+        font-size: 18px;
+        text-align: justify;
+        font-family: "Remoto";
+    }
+    .iconos a {
+        text-decoration: none;
+        font-size: 18px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background: #314652;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        transition: all .4s ease-in-out;
+    }
+    .contacto{
+        font-family: "Louis George Cafe Light";
+        font-size: 20px;
+        font-weight: bold;
+    }
 }
 
