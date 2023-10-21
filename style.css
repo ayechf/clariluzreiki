@@ -1,7 +1,15 @@
-/* Estilo de body*/
+/* Estilo de header */
+header{
+    background-color: #200069;
+    padding: 0;
+    margin: 0;
+    max-height: 900px;
+}
+
+/* Estilo de body,*/
 body{
-background-color: #627dfa;
-background-image: linear-gradient(62deg, #627dfa 0%, #E0C3FC 50%, #ffffff 100%);
+background-color: #ffffff;
+background-image: linear-gradient(62deg, aliceblue 0%, #8e91fc 33%, #E0C3FC 66%, aliceblue 100%);
 padding: 15px;
 }
 
@@ -14,7 +22,6 @@ h1{
 .tituloprincipal{
     font-size: 100px;
 }
-
 
 /* Estilos de parrafos */
 
@@ -75,7 +82,6 @@ p{
     font-size: 35px;
 }
 
-
 /* Estilos Bootstrap */
 
 .slide img{
@@ -109,10 +115,10 @@ p{
 /* Estilo de menu */
 
 #menu{
-    background-color: #3b00c3;
-    font-family: "Roboto";
-    font-size: 30px;
+    font-family: "Catchye";
+    font-size: 33px;
     font-weight: bold;
+    text-align: center;
 }
 
 #menu ul{
@@ -131,7 +137,6 @@ p{
     padding: 20px 30px;
     text-decoration: none;
     transition: all .4s ease-in-out;
-
 }
 
 #menu li a:hover{
@@ -175,11 +180,13 @@ p{
     font-size: 35px;
     font-weight: bold;
 }
-/* Estilos footer */
+
+/* Estilo de footer */
 
 footer{
     font-family: "Calibri";
     font-size: 18px;
+    text-align: center;
 }
 
 /* Diseño Responsive */
