@@ -31,7 +31,7 @@
                         <li><a href="#cursos">Cursos</a>
                         <li><a href="#piedras">Piedras</a>
                         <li><a href="#aromaterapia">Aromaterapia</a></li>
-                        <li><a href="#Opiniones">Aromaterapia</a></li> 
+                        <li><a href="#opiniones">Opiniones</a></li> 
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
@@ -62,13 +62,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="\Fotos Pagina Web\reiki4.jpg" class="d-block w-100" alt="5px">
+                        <img src=".\Fotos Pagina Web\reiki4.jpg" class="d-block w-100" alt="5px">
                         </div>
                         <div class="carousel-item">
-                        <img src="\Fotos Pagina Web\reiki5.jpg" class="d-block w-100" alt="5px">
+                        <img src=".\Fotos Pagina Web\reiki5.jpg" class="d-block w-100" alt="5px">
                         </div>
                         <div class="carousel-item">
-                        <img src="\Fotos Pagina Web\reiki6.jpg" class="d-block w-100" alt="5px">
+                        <img src=".\Fotos Pagina Web\reiki6.jpg" class="d-block w-100" alt="5px">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -155,7 +155,8 @@
 
 <!-- Sección Sliders -->
             <h2 class="titulopinion">Opiniones</h2>
-            <div class="opiniones">
+            <br>
+            <div class="opiniones" id="opiniones">
                 <section class="opiniones" id="opiniones">
                 <div class="opiniones_contenedor contenedor">
                     <img src="./Fotos Pagina Web/flechaizquierda.svg" class="flecha_contenedor" id="atras">
@@ -163,7 +164,7 @@
 
                     <section class="cuerpo_opiniones cuerpo_opiniones_muestra" data-id="1">
                         <div class="texto_opiniones">
-                            <h2 class="subtitulo">Soy Laura Gómez, paciente en ClariLuz</h2>
+                            <h2 class="subtitulo">Soy Laura Gomez, paciente en ClariLuz</h2>
                             <p class="textopinion">Estoy muy contenta con mi experiencia! Antes no creía en las energías, dudaba y pensaba que no era algo real, hasta que tuve la posibilidad de tener mi primera sesión recomendada por una amiga y me encantó! Me conecté con mis emociones, y hoy lo elijo como una alternativa para sentirme mejor.</p>
                         </div>
                     </section>
@@ -185,34 +186,35 @@
             </section>
             </div>    
             <br>
-
+            <br>
 <!-- Seccion Contacto -->
             <div>
                 <section class="contacto" id="contacto"></section>
                 <h3 class="tituloform">¿Tenes dudas? ¡Dejame tu consulta!</h3>
+                <br>
                 <form action="procesar" method="post">
                 <fieldset> 
                     <legend class="letracontacto">Información Personal</legend>
                     <br>
                     <label for="nombre"></label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" maxlength="40" required>
                     <br>
-                    <label for="Mail"></label>
-                    <input type="email" id="email" name="mail" placeholder="Correo Electrónico" required>
+                    <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Correo Electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="30" required>
                     <br>
                     <label for="telefono"></label>
-                    <input type="telefono" id="telefono" name="telefono" placeholder="Teléfono" required>
+                        <input type="telefono" id="telefono" name="telefono" placeholder="Teléfono" maxlength="14" required>
                     <br>
-                    <label for="ciudad" class="ciudad"> Ciudad de Residencia:</label>
-                    <select name="ciudad" id="ciudad">
-                        <option value="CABA"> CABA</option>
-                        <option value="Buenos Aires"> Buenos Aires</option>
-                        <option value="Otras Provincias de Argentina"> Otras Provincias de Argentina</option>
-                        <option value="Otro País"> Otro País</option>
+                    <label for="ciudad"> Ciudad de Residencia:</label>
+                        <select name="ciudad" id="ciudad">
+                            <option value="CABA"> CABA</option>
+                            <option value="Buenos Aires"> Buenos Aires</option>
+                            <option value="Otras Provincias de Argentina"> Otras Provincias de Argentina</option>
+                            <option value="Otro País"> Otro País</option>
                     </select>
                     <br>
-                    <label for="Consulta"></label>
-                    <textarea name="consulta" id="consulta" cols="50" rows="5" placeholder="Escribime tu consulta!" required></textarea>
+                    <label for="consulta"></label>
+                        <textarea name="consulta" id="consulta" cols="50" rows="5" placeholder="Escribime tu consulta!" maxlength="500" required></textarea>
                 </fieldset>
                 <br>
 

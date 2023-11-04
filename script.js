@@ -30,3 +30,7 @@
     }
 
 })();
+
+// Prompt Suscribirse
+
+prompt("Si queres recibir novedades, dejanos tu mail!")
