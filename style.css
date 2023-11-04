@@ -85,6 +85,26 @@ p{
     font-size: 35px;
 }
 
+.imgpiedras{
+    height: auto;
+    width: auto;
+    max-height: 40%;
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.imgaroma{
+    height: auto;
+    width: auto;
+    max-height: 40%;
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
 /* Estilos Bootstrap */
 
 .slide img{
