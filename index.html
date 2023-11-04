@@ -188,21 +188,21 @@
 <!-- Seccion Contacto -->
             <div>
                 <section class="contacto" id="contacto"></section>
-                <h3 class="contacto">¿Tenes dudas? ¡Dejame tu consulta!</h3>
+                <h3>¿Tenes dudas? ¡Dejame tu consulta!</h3>
                 <form action="procesar" method="post">
                 <fieldset> 
                     <legend class="letracontacto">Información Personal</legend>
                     <br>
-                    <label for="nombre" class="letracontacto">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="nombre"></label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
                     <br>
-                    <label for="Mail" class="letracontacto">Correo Electrónico:</label>
-                    <input type="email" id="email" name="mail" required>
+                    <label for="Mail"></label>
+                    <input type="email" id="email" name="mail" placeholder="Correo Electrónico" required>
                     <br>
-                    <label class="letracontacto">Teléfono</label>
-                    <input type="telefono" id="telefono" name="telefono" required>
+                    <label for="telefono"></label>
+                    <input type="telefono" id="telefono" name="telefono" placeholder="Teléfono" required>
                     <br>
-                    <label for="ciudad" class="letracontacto"> Ciudad de Residencia:</label>
+                    <label for="ciudad" class="ciudad"> Ciudad de Residencia:</label>
                     <select name="ciudad" id="ciudad">
                         <option value="CABA"> CABA</option>
                         <option value="Buenos Aires"> Buenos Aires</option>
@@ -210,8 +210,8 @@
                         <option value="Otro País"> Otro País</option>
                     </select>
                     <br>
-                    <label for="Consulta" class="letracontacto"> Consulta: </label>
-                    <textarea name="consulta" id="consulta" cols="50" rows="5"></textarea>
+                    <label for="Consulta"></label>
+                    <textarea name="consulta" id="consulta" cols="50" rows="5" placeholder="Escribime tu consulta!" required></textarea>
                 </fieldset>
                 <br>
 
