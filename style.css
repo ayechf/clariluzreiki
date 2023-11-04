@@ -150,6 +150,63 @@ p{
     justify-content: space-around;
 }
 
+/* Estilo Sliders */
+
+.opiniones{
+    background-color: #eba5ff;
+    background-image: linear-gradient(0deg, #eba5ff 0%, #b5e0ff 100%);
+}
+
+.opiniones_contenedor{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+
+
+.cuerpo_opiniones{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.cuerpo_opiniones_muestra{
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.texto_opiniones{
+    max-width: 2000px;
+}
+
+.flecha_contenedor{
+    width: 30px;
+    cursor: pointer;
+}
+
+.subtitulo{
+    color: rgb(4, 4, 4);
+    font-size: 50px;
+    text-align: center;
+    font-family: "samantha";
+}
+
+.textopinion{
+    color: rgb(5, 5, 5);
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Calibri";
+    font-size: 25px;
+}
+
 /* Estilos formulario */
 
 .letracontacto{
