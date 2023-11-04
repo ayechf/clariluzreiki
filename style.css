@@ -225,33 +225,13 @@ form{
     font-size: 20px;
 }
 
-#letracontacto{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-size: 20px; 
-}
-
-#ciudad{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
-
-#boton{
-    background: #200069;
-    color: aliceblue;
-    padding: 20px;
-}
-
-#boton:hover{
-    cursor: pointer;
-}
-
-h3{
+.tituloform{
     font-size: 50px;
     text-align: center;
     margin: 0;
     margin-bottom: 10px;
-
+    font-family: "Bestie";
+    text-align: center;
 }
 
 input, textarea{
@@ -259,7 +239,7 @@ input, textarea{
     margin-bottom: 20px;
     padding: 7px;
     box-sizing: border-box;
-    font-size: 17px;
+    font-size: 20px;
     border: none;
 }
 
@@ -269,12 +249,30 @@ textarea{
     max-width: 100%;
 }
 
+.ciudad{
+    font-family: "Calibri";
+    margin-top: 15px;
+    font-size: 20px;
+}
 
-/* .contacto{
-    font-family: "Louis George Cafe Light";
-    font-size: 35px;
-    font-weight: bold;
-} */
+#ciudad{
+    width: 100%;
+}
+
+/* Sección Botones */
+
+#boton{
+    background: #200069;
+    color: aliceblue;
+    padding: 15px;
+    font-family: "Calibri";
+    font-size: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
 
 /* Estilo de footer */
 
