@@ -326,6 +326,7 @@ footer{
 @media screen and (max-width: 768px){
     #menu{
         flex-direction: row;
+        width: 100%;
     }
     #menu ul{
         padding: 0;
@@ -415,4 +416,6 @@ footer{
         width: 100%;
     }
 }
+
+
 
