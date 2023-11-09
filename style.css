@@ -238,6 +238,11 @@ p{
     font-size: 25px;
 }
 
+#adelante{
+    position: relative;
+    left: -50px;
+}
+
 /* Estilos formulario */
 
 form{
