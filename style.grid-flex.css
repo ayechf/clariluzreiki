@@ -37,6 +37,26 @@
 	font-size: 32px;
 }
 
+.flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: space-between;
+}
+
+.cuadroflex{
+	border-radius: 20px;
+	min-height: 200px;
+	padding: 20px;
+    width: 500px;
+	height: 400px;
+	background-color: #FADAF6;
+	text-align: center;
+	margin: 2px;
+}
+
 /* Diseño Responsive */
 
 @media screen and (max-width: 768px){

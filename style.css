@@ -26,9 +26,10 @@ h1{
 
 /* Estilos de parrafos */
 
-.Titulo{ 
+.titulo{ 
     list-style-type: none;
     font-size: 35px;
+    font-family: "Louis George Cafe Light";
 }
 
 h2{
@@ -77,10 +78,6 @@ p{
     font-weight: normal;
 }
 
-.Titulo{
-    font-family: "Louis George Cafe Light";
-}
-
 .niveles{
     font-family: "Louis George Cafe Light";
     font-size: 35px;
@@ -110,10 +107,11 @@ p{
 
 .slide img{
     height: 100vh;
+    border-radius: 10px;
 }
 
 .iconos {
-    min-width: 700px;
+    min-width: 500px;
     display: flex;
     justify-content: right;
 }
