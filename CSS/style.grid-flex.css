@@ -57,6 +57,12 @@
 	background-color: #FADAF6;
 	text-align: center;
 	margin: 2px;
+	transition: 0.5s;
+	box-shadow: 5px 5px 10px;
+}
+
+.cuadroflex:hover{
+	transform: scale(1.2);
 }
 
 /* Diseño Responsive */

@@ -91,6 +91,12 @@ p{
     display: block;
     margin: auto;
     border-radius: 10px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.imgpiedras:hover{
+    transform: scale(1.2);
 }
 
 .imgaroma{
@@ -101,6 +107,12 @@ p{
     display: block;
     margin: auto;
     border-radius: 10px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.imgaroma:hover{
+    transform: scale(1.2);
 }
 
 /* Estilos Bootstrap */
